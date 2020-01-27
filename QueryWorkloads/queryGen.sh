@@ -15,7 +15,6 @@ queryCount="$3"
 queriesPerTemp="queriesTemp"
 outputList_seperate="$4"
 
-
 mkdir -p ${queriesPerTemp}
 rm -r ${queriesPerTemp}/*
 
