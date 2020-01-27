@@ -29,7 +29,7 @@ e.g. `./queryGen.sh /PathTo/watdiv/model/wsdbm-data-model.txt /Pathto/watdiv/tes
 
 ### 2. remove duplicates of the queries
 
-**removeDuplicate.sh**: works to remove all the duplicates and issue a unique name for each query, in addition, it also adds a random prefix for each query. 
+**removeDuplicate.sh**: works to remove all the duplicates and issue a unique name for each query, in addition, it also adds a random prefix for each query. The ZIP package **'queries.zip'** is an example set of queries without duplicates, which was generated on setting the query-count as 5000.
 
 To run the script, issue the following command:
 
