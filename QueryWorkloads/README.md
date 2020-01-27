@@ -29,7 +29,9 @@ e.g. `./queryGen.sh /PathTo/watdiv/model/wsdbm-data-model.txt /Pathto/watdiv/tes
 
 ### 2. remove duplicates of the queries
 
-**removeDuplicate.sh**: works to remove all the duplicates and issue a unique name for each query, in addition, it also adds a random prefix for each query. To run the script, issue the following command:
+**removeDuplicate.sh**: works to remove all the duplicates and issue a unique name for each query, in addition, it also adds a random prefix for each query. 
+
+To run the script, issue the following command:
 
 `./removeDuplicate.sh <queryies-dir>`
 
@@ -37,7 +39,9 @@ e.g. `./removeDuplicate.sh /xxxx/queries`
 
 ### 3. generate workloads for the single client:
 
-**genWorkLoad.sh**: it retrieves all the query instances of each query template and copies the queries into the corresponding workloads directory. To run the script, issue the following command:
+**genWorkLoad.sh**: it retrieves all the query instances of each query template and copies the queries into the corresponding workloads directory. 
+
+To run the script, issue the following command:
 
 `./genWorkLoad.sh <queries-dir> <workloads-dir>`
 
@@ -45,6 +49,7 @@ e.g. `./genWorkLoad.sh queries workloads_singleClient`
 
 ### 4. divide workloads for multiple clients:
 **divideWorkloads.sh**: divides workloads into sub workloads according to the given number of clients.
+
 To run the script, issue the following command:
 
 `./divideWorkloads.sh <workload_singelClient_dir> <workload_multiple_dir> <numberOfClients>`
