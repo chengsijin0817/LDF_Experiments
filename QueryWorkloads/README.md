@@ -1,10 +1,16 @@
-# Generate workloads
+# Scripts to generate workloads for the experiments
 
-## Preparation:
+The experiments are based on the [Waterloo SPARQL Diversity Test Suite (WatDiv)](https://dsg.uwaterloo.ca/watdiv/). As a consequence, creating the workloads requires the WatDiv tools.
 
-1. installed [Boost](https://www.boost.org/)
+## Compiling the WatDiv tools:
 
-2. downloaded source code of the [WatDiv Query Template Generator](https://dsg.uwaterloo.ca/watdiv/) and execute the following commands:
+As [described on the WatDiv Website](https://dsg.uwaterloo.ca/watdiv/#installation),
+
+1. download the [latest version of the WatDiv source code package](https://dsg.uwaterloo.ca/watdiv/#download),
+
+2. install the [Boost libraries](https://www.boost.org/), and
+
+3. execute the following commands:
 
 ```
 - tar xvf watdiv_v05.tar
