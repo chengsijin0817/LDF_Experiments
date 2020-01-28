@@ -2,7 +2,7 @@
 
 The experiments are based on the [Waterloo SPARQL Diversity Test Suite (WatDiv)](https://dsg.uwaterloo.ca/watdiv/). As a consequence, creating the workloads requires the WatDiv tools. Hence, as a preparation for using the workload-generation shell scripts in this repository, it is necessary to compile the WatDiv tools. Then, the shell scripts can be used, which includes four modules.
 
-## Preparation (comiling WatDiv tools)
+## Preparation (compiling WatDiv tools)
 To compile the WatDiv tools, as [described on the WatDiv Website](https://dsg.uwaterloo.ca/watdiv/#installation),
 
 1. install the [Boost libraries](https://www.boost.org/),
