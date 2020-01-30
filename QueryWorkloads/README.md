@@ -34,26 +34,26 @@ e.g. `./queryGen.sh /PathTo/watdiv/model/wsdbm-data-model.txt /Pathto/watdiv/tes
 
 The script **removeDuplicate.sh** removes all the duplicates among the queries written in the previous step. Additionally, the script generates a unique name for each query. These names consist of a random 5-digit prefix. The ZIP package **'queries.zip'** is an example set of queries without duplicates, which was generated on setting the 'query-count' parameter to 5000.
 
-To run the script, issue the following command:
+To run the script issue the following command:
 
 `./removeDuplicate.sh <queryies-dir>`
 
 e.g. `./removeDuplicate.sh /xxxx/queries`
 
-## Script 3. generate workloads for the single client:
+## Step 3. Generate the workloads for single client experiments
 
-**genWorkLoad.sh**: it retrieves all the query instances of each query template and copies the queries into the corresponding workloads directory. 
+The script **genWorkLoad.sh** copies the files with the queries of all query templates into the corresponding workload directories. 
 
-To run the script, issue the following command:
+To run the script issue the following command:
 
 `./genWorkLoad.sh <queries-dir> <workloads-dir>`
 
 e.g. `./genWorkLoad.sh queries workloads_singleClient`
 
-## Script 4. divide workloads for multiple clients:
-**divideWorkloads.sh**: divides workloads into sub workloads according to the given number of clients.
+## Step 4. Divide the workloads for multi-client experiments:
+The script **divideWorkloads.sh** divides workloads into sub workloads according to the given number of clients.
 
-To run the script, issue the following command:
+To run the script issue the following command:
 
 `./divideWorkloads.sh <workload_singelClient_dir> <workload_multiple_dir> <numberOfClients>`
 
